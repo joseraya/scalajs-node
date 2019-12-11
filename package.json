@@ -1,0 +1,12 @@
+{
+  "name": "scala-js-node",
+  "version": "0.0.0",
+  "description": "Scala JS - Node JS Integration Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd model && sbt fastOptJS && cd .."
+  },
+  "author": "",
+  "license": "ISC"
+}
